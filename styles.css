@@ -1,33 +1,41 @@
 body {
     font-family: Arial, sans-serif;
+    background-image: url('https://i.pinimg.com/originals/ca/e1/1d/cae11df222ff8639d02aa7b81d1d296a.gif');
     background-color: #f0f0f0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     margin: 0;
     padding: 0;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    }
-    .container {
+}
+
+.container {
     text-align: center;
     background-color: #fff;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    }
-    button {
-    padding: 25px 20px;
+}
+
+button { 
+    padding: 10px 20px;
     font-size: 16px;
     margin-top: 20px;
     cursor: pointer;
     border: none;
     border-radius: 4px;
-    background-color: #00ff80;
+    background-color: #91e903;
     color: white;
-    }
-    button:hover {
-    background-color: #7bff00;
-    }
-    .hidden {
+}
+
+button:hover {
+    background-color: #24b300;
+}
+
+.hidden {
     display: none;
-    }
+}
